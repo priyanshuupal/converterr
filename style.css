@@ -259,10 +259,16 @@ form select {
     display: flex;
     white-space: nowrap;
     gap: 3em;
-    overflow-x: auto;
     overflow-y: hidden;
-    /* padding: 1em; */
     padding: 2em 0;
+    overflow-x: scroll;
+    /* Enable horizontal scrolling */
+    scrollbar-width: none;
+    /* Firefox */
+    /* -ms-overflow-style: none; */
+}
+.fifth::-webkit-scrollbar {
+  display: none;             /* Chrome, Safari and Opera */
 }
 
 .cards {
@@ -271,6 +277,7 @@ form select {
     display: flex;
     border-radius: 2em;
     /* height: 8em; */
+    overflow-x: hidden;
 }
 
 .cards img {
