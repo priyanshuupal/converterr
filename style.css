@@ -265,7 +265,7 @@ form select {
     /* Enable horizontal scrolling */
     scrollbar-width: none;
     /* Firefox */
-    /* -ms-overflow-style: none; */
+    -ms-overflow-style: none;
 }
 .fifth::-webkit-scrollbar {
   display: none;             /* Chrome, Safari and Opera */
