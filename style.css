@@ -155,6 +155,7 @@ nav ul img {
     color: var(--primaryColor);
     padding: 0.5em 0;
 }
+
 form {
     justify-content: center;
     align-items: center;
@@ -191,7 +192,7 @@ form input {
 
 .select-container img {
     max-width: 2rem;
-    margin:0.2em;
+    margin: 0.2em;
     border-radius: 15%;
 }
 
@@ -265,11 +266,13 @@ form select {
     /* Enable horizontal scrolling */
     scrollbar-width: none;
     /* Firefox */
-    -ms-overflow-style: none;
+    /* -ms-overflow-style: none; */
 }
+
 .fifth::-webkit-scrollbar {
   display: none;             /* Chrome, Safari and Opera */
 }
+
 
 .cards {
     width: 15em;
@@ -286,10 +289,12 @@ form select {
     border-radius: 2em;
     transition: all 0.1s ease-in-out;
 }
-.cards img:hover{
+
+.cards img:hover {
     box-shadow: 0px 0px 2em var(--secondaryColor);
     cursor: pointer;
 }
+
 footer {
     /* border: 2px solid navy; */
     /* background-color:; */
